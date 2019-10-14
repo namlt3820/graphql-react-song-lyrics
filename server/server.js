@@ -9,7 +9,7 @@ const app = express();
 
 // Replace with your mongoLab URI
 const MONGO_URI =
-	'mongodb://nam:Shan0238@cluster0-shard-00-00-ko6jh.mongodb.net:27017,cluster0-shard-00-01-ko6jh.mongodb.net:27017,cluster0-shard-00-02-ko6jh.mongodb.net:27017/lyrical?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority';
+	'mongodb://nam:<password>@cluster0-shard-00-00-ko6jh.mongodb.net:27017,cluster0-shard-00-01-ko6jh.mongodb.net:27017,cluster0-shard-00-02-ko6jh.mongodb.net:27017/lyrical?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority';
 if (!MONGO_URI) {
 	throw new Error('You must provide a MongoLab URI');
 }
